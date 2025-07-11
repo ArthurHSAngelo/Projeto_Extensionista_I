@@ -3,63 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Projeto Extensionista I</title>
   </head>
 
   <body>
-  <header>
-    <div style="text-align: center">
-      <a href="index.html">
-        <img src="imagens/logo.png" alt="Logo Cabeçalho" width="400">
-      </a><br>
-      <h1 style="background-color: rgb(0, 98, 255); display: inline;">Eurotec Centro Automotivo</h1>
-    </div>
-  </header>
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="imagens/logo.jpg" alt="Logo Cabeçalho">
+        </a>
+        <h1>Eurotec Atellier Mécanique</h1>
+      </div>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="index.html">Serviços</a></li>
-      <li><a href="contato.html">Contato</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section>
-      <h2>Bem-vindo à Eurotec Centro Automotivo</h2>
-      <p>Especialistas em serviços mecânicos para veículos Citroën e Peugeot, oferecendo peças originais e atendimento de excelência.</p>
-    </section>
-
-    <section>
-      <hr><h2>Nossos serviços</h2>
+    <nav>
       <ul>
-        <li>Mecânica eletrônica</li>
-        <li>Alinhamento e balanceamento</li>
-        <li>Peças originais</li>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="index.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
-      <p><strong>Garantia:</strong> 3 meses em todos os serviços!</p>
-    </section>
-  </main>
+    </nav>
 
-  <aside>
-      <hr><h3>Informações de Contato</h3>
+    <main>
+      <section class="welcome-section">
+        <h2>Bem-vindo à Eurotec Atellier Mécanique</h2>
+        <p>Especialistas em serviços mecânicos para veículos Citroën e Peugeot, oferecendo peças originais e atendimento de excelência.</p>
+      </section>
 
-      <p><img src="imagens/endereco.png" alt="endereco" height="18px"><strong> Endereço:</strong> Av: Cleanto Vieira Gonçalves, n°445 | Roosevelt <br>
-      Cep: 38400-233 | Uberlândia-MG</p>
+      <section class="environment-section">
+        <hr>
+        <h2>Conheça o nosso ambiente de trabalho:</h2>
+        </section>
+    </main>
 
-      <p><img src="imagens/telefone.png" alt="telefone" height="18px"><strong> Telefone:</strong> (34) 99243-4323</p>
+   <aside class="contact-info">
+  <hr>
+  <h3>Informações de Contato</h3>
+  <hr>
+  <p>
+    <img src="imagens/icons/endereco.png" alt="Ícone de endereço">
+    <strong>Endereço:</strong> <span>Av: Cleanto Vieira Gonçalves, n°445 | Roosevelt | Cep: 38400-233 | Uberlândia-MG</span>
+  </p>
+  <hr>
+  <p>
+    <img src="imagens/icons/telefone.png" alt="Ícone de telefone">
+    <strong>Telefone:</strong> <span>(34) 99243-4323</span>
+  </p>
+  <hr>
+  <p>
+    <img src="imagens/icons/email.png" alt="Ícone de e-mail">
+    <strong>Email:</strong> <a href="mailto:administrativo@eurotec.com.br">administrativo@eurotec.com.br</a>
+  </p>
+  <hr>
+  <p>
+    <img src="imagens/icons/relogio.png" alt="Ícone de relógio">
+    <strong>Horário de Funcionamento:</strong> <span>Segunda a sexta, das 8h às 18h</span>
+  </p>
+</aside>
 
-      <p><img src="imagens/email.png" alt="email" height="19px"><strong> Email:</strong> <a href="mailto:administrativo@eurotec.com.br">administrativo@eurotec.com.br</a></p>
-      
-      <p><img src="imagens/relogio.png" alt="relogio" height="18"><strong> Horário de Funcionamento:</strong> Segunda a sexta, das 8h às 18h</p>
-    </aside>
-
-    <center>
-      <hr><footer>
+    <footer>
+      <hr>
       <p>&copy; 2025 Eurotec Centro Automotivo Ltda Me - Todos os direitos reservados.</p>
-      </footer>
-    </center>
-  
+    </footer>
   </body>
 </html>
