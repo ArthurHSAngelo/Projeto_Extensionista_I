@@ -228,9 +228,13 @@ main.contact-page-content {
     width: 170px;
     height: 170px;
     transition: scale 2s;
+    
 }
 
 .galeria img:hover {
-    scale: 3.2;
+    scale: 3.0;
 }
 
+.galeria {
+    margin: 110px;   
+}
