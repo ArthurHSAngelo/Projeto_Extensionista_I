@@ -232,9 +232,10 @@ main.contact-page-content {
 }
 
 .galeria img:hover {
-    scale: 3.0;
+    scale: 2.8;
 }
 
 .galeria {
-    margin: 110px;   
+    margin-left: 22%;
+    margin-right: -22%;   
 }
